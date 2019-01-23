@@ -38,23 +38,3 @@ Please, feel free to contact me for more information.
 
 [siomara.com.br](http://www.siomara.com.br)
 
-
-
-
-
-
-
-
-
-
-
-Thanks for your attention!
-
-SIOMARA PANTAROTTO
-siomara.com.br
-siomarapantarotto@gmail.com
-+55 61 99282-6332
-
-
-
-
