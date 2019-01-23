@@ -1,2 +1,2 @@
 # EcommerceFromScratch
-"EcommerceFromScratch" is a basic JAVA project course
+"EcommerceFromScratch" is a basic JAVA project course.
