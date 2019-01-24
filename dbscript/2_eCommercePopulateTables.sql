@@ -1,5 +1,7 @@
+--- Read 0_ecommerceDBInstructions first --
 -- This is the SECOND SCRIPT that must be run on database ecommerce --
 -- Copy the code, right click database ecommerce created on PostgresSQL and run --
+
 
 /*==========================================================================*/
 /* Table: COUNTRY															*/
@@ -856,6 +858,4 @@ values
   'Brad Pit',
   '1962-01-30'
 );
-
-
 
