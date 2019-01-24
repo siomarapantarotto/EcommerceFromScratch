@@ -1,3 +1,4 @@
+--- Read 0_ecommerceDBInstructions first --
 -- This is the FIRST SCRIPT that must be run on database ecommerce --
 -- Copy the code, right click database ecommerce created on PostgresSQL and run --
 
