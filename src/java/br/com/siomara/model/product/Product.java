@@ -3,7 +3,7 @@ package br.com.siomara.model.product;
 import br.com.siomara.util.Register;
 
 /**
- * Product class to store values from product table
+ * POJO Product 
  * @author  siomara.com.br
  * @version 20160914
  */
@@ -16,16 +16,17 @@ public class Product {
     private float       weight;
     private float       price;
     private String      detail;
-
     private Register    register;
     private ProductType productType;
 
+    
     // NO ARGUMENT constructor
     public Product() {
         this.productType = new ProductType();
         this.register = new Register();
     }
 
+    
     // GET and SET methods
     public int getId() {
         return id;

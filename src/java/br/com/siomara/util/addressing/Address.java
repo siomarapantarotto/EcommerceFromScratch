@@ -6,7 +6,7 @@
 package br.com.siomara.util.addressing;
 
 /**
- * Classe Address - Composition
+ * POJO Address - Custumer will have only one addres for now
  * @author siomara.com.br
  */
 public class Address {

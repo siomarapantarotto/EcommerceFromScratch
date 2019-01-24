@@ -1,8 +1,9 @@
 package br.com.siomara.model.product;
 
 /**
- *
+ * POJO ProductType
  * @author siomara.com.br
+ * @version 20190124
  */
 public class ProductType {
     

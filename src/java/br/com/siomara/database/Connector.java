@@ -5,22 +5,27 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
 /**
- * Classe responsável para estabelecer conexão com o DB Postgres
+ * Class responsible to establish connection with DB Postgres
+ * This course does not implement DB connection pool
  *
  * @author siomara.com.br
  * @version 20160917
  */
 public class Connector {
 
-    // Constantes
+    // Database parameters
     private static final String DB_DRIVER = "org.postgresql.Driver";
     private static final String DB_CONNECTION = "jdbc:postgresql://127.0.0.1:5432/ecommerce";
     private static final String DB_USER = "postgres";
     private static final String DB_PASSWORD = "postgres";
 
+    
+    // NO ARGUMENT constructor
     public Connector() {
     }
 
+    
+    // Set and returns a connection to the database 
     public Connection getConnection() {
 
         System.out.println("---------------------- PostgreSQL JDBC Connection ----------------------");

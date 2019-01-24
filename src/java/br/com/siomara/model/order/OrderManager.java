@@ -4,8 +4,11 @@ import java.util.Enumeration;
 import java.util.Vector;
 
 /**
- *
+ * 
+ * Manager class for POJO Order 
  * @author siomara.com.br
+ * @version 20190124
+ * 
  */
 public class OrderManager {
 

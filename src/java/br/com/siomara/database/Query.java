@@ -11,18 +11,22 @@ import java.util.List;
 import java.util.Vector;
 
 /**
- *
  * @author siomara.com.br
+ * @version 20190123
  */
 public class Query {
 
     private Connection connection;
 
+    // NO ARGUMENT constructor
     public Query() {
         Connector connector = new Connector();
         this.connection = connector.getConnection();
     }
 
+    /**
+     * Method for INSERT, UPDATE and DELETE
+     */
     public void execute(String query) {
         Statement stmt = null;
 
@@ -42,9 +46,11 @@ public class Query {
         }
     }
 
+    /**
+     * Method for SELECTs. Returns a List of objects
+     */
     public List execute(String sql, String table) throws SQLException {
         Statement statement = null;
-        
 
         try {
             //this.connection = getDBConnection();

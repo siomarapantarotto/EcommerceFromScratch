@@ -6,9 +6,17 @@
 package br.com.siomara.model.sale;
 
 /**
- *
+ * POJO Sale
  * @author siomara.com.br
+ * @version 20190124
  */
 public class Sale {
+    
+    private int id;
+
+    public Sale() {
+    }
+    
+    
     
 }

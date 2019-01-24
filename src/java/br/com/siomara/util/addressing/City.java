@@ -1,7 +1,7 @@
 package br.com.siomara.util.addressing;
 
 /**
- *
+ * POJO City
  * @author siomara.com.br
  */
 public class City {

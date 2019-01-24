@@ -26,12 +26,12 @@ public class CountryManager {
     public void save(Country country) {
         String sql = "update country set name = '" + country.getName()
                 + "', abv = '" + country.getAbv()
-                + "' where id = " + country.getCountryID();
+                + "' where id = " + country.getId();
         this.query.execute(sql);
     }
 
     public void remove(Country country) {
-        String query = "delete from country where id = " + country.getCountryID();
+        String query = "delete from country where id = " + country.getId();
         this.query.execute(query);
         
      }

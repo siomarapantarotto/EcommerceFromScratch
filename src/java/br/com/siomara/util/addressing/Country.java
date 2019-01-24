@@ -1,24 +1,25 @@
 package br.com.siomara.util.addressing;
 
 /**
+ * POJO Country
  *
  * @author siomara.com.br
  */
 public class Country {
 
-    private int countryID;
+    private int id;
     private String name;
     private String abv;
 
     public Country() {
     }
 
-    public int getCountryID() {
-        return countryID;
+    public int getId() {
+        return id;
     }
 
-    public void setCountryID(int countryID) {
-        this.countryID = countryID;
+    public void setId(int id) {
+        this.id = id;
     }
 
     public String getName() {
@@ -39,7 +40,7 @@ public class Country {
 
     @Override
     public String toString() {
-        return "Country{" + "countryID=" + countryID + ", name=" + name + ", abv=" + abv + '}';
+        return "Country{" + "countryID=" + id + ", name=" + name + ", abv=" + abv + '}';
     }
 
 }

@@ -1,7 +1,7 @@
 package br.com.siomara.util.addressing;
 
 /**
- *
+ * POJO State
  * @author siomara.com.br
  */
 public class State {
