@@ -3,12 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package br.com.siomara.util.addressing;
+package br.com.siomara.model.addressing;
 
 /**
  *
  * @author siomara.com.br
  */
-public class CityManager {
+public class StateManager {
     
 }

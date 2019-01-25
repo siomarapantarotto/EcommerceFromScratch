@@ -1,4 +1,4 @@
-package br.com.siomara.util.addressing;
+package br.com.siomara.model.addressing;
 
 /**
  * POJO City

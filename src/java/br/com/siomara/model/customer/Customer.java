@@ -1,7 +1,7 @@
 package br.com.siomara.model.customer;
 
 import java.sql.Date;
-import br.com.siomara.util.addressing.Address;
+import br.com.siomara.model.addressing.Address;
 import br.com.siomara.util.Register;
 
 /**
