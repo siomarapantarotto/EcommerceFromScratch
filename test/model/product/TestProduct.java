@@ -35,14 +35,14 @@ public class TestProduct {
         
         // Enumerate the elements in the vector. 
         Enumeration vEnum = products.elements();
-        System.out.println("\\nElements in vector:");
+        System.out.println("\nElements in vector:");
         while (vEnum.hasMoreElements()) {
-            System.out.print(vEnum.nextElement() + " ");
+            System.out.print(vEnum.nextElement().getClass().getName() + "=====");
         }
         System.out.println();
-//        for (int i = 0; i < products.size(); i++) {
-//            System.out.println(products);
-//        }
+        for (int i = 0; i < products.size(); i++) {
+            System.out.println(products);
+        }
     }
 
 }
