@@ -1,0 +1,33 @@
+/* 
+ * Instructions to create and populate the database ecommerce_db.
+ */
+
+/**
+ * Author:  siomara.com.br
+ * Created: 20190124
+ */
+
+-- 1) Install PostgreSQL Database
+
+
+-- 2) Create 2 roles:
+-- Role: ecommerce_dba as a super user (ecommercedbapwd)
+-- Role: ecommerce_sys as default user (ecommercesyspwd)
+
+
+-- 3) Create database ecommerce_db with ecommerce_dba as owner
+
+
+-- 4) Click to select database ecommerce_db
+-- Click SQL, paste the content of 1_ecommerceCreateTables.sql and run script
+-- Check to see that tables were created
+
+
+-- 5) Click to select database ecommerce_db
+-- Click SQL, paste the content of 2_ecommercePopulateTables.sql and run script
+-- Check to see that tables were populated with data
+
+-- 6) Guide students regarding the DB Drivers
+
+
+
