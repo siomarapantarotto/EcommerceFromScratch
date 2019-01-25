@@ -2,23 +2,24 @@ package br.com.siomara.util.addressing;
 
 /**
  * POJO State
+ *
  * @author siomara.com.br
  */
 public class State {
-    
-    private int     stateID;
-    private String  name;
-    private String  abv;
+
+    private int id;
+    private String name;
+    private String abv;
 
     public State() {
     }
 
-    public int getStateID() {
-        return stateID;
+    public int getId() {
+        return id;
     }
 
-    public void setStateID(int stateID) {
-        this.stateID = stateID;
+    public void setId(int id) {
+        this.id = id;
     }
 
     public String getName() {
@@ -26,7 +27,6 @@ public class State {
     }
 
     public void setName(String name) {
-        System.out.println("===> Estou no setName(String name) de State");
         this.name = name;
     }
 
@@ -40,8 +40,6 @@ public class State {
 
     @Override
     public String toString() {
-        return "State{" + "stateID=" + stateID + ", name=" + name + ", abv=" + abv + '}';
+        return "State{" + "stateID=" + id + ", name=" + name + ", abv=" + abv + '}';
     }
-    
-    
 }
