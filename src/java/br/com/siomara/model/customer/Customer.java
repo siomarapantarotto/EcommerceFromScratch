@@ -12,12 +12,12 @@ import br.com.siomara.util.Register;
 public class Customer {
 
     // Customer attributes
-    private int     id;
-    private String  name;
-    private String  telephone;
-    private Date    birthday;    
-    private Address  actualAddress;
-    private Register register;
+    private int         id;
+    private String      name;
+    private String      telephone;
+    private Date        birthday;    
+    private Address     actualAddress;
+    private Register    register;
 
     
     // Customer constructor with necessary objects

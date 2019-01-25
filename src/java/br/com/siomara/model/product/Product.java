@@ -19,13 +19,11 @@ public class Product {
     private Register    register;
     private ProductType productType;
 
-    
     // NO ARGUMENT constructor
     public Product() {
         this.productType = new ProductType();
         this.register = new Register();
     }
-
     
     // GET and SET methods
     public int getId() {
@@ -82,6 +80,12 @@ public class Product {
 
     public void setProductType(ProductType productType) {
         this.productType = productType;
+    }
+
+    // To string    
+    @Override
+    public String toString() {
+        return "Product{" + "id=" + id + ", name=" + name + ", weight=" + weight + ", price=" + price + ", detail=" + detail + ", register=" + register + ", productType=" + productType + '}';
     }
 
 }
