@@ -15,6 +15,7 @@ The purpose is to give students an idea on how to create an ecommerce project fr
 Instead of a course with different lessons (1, 2, 3 etc) , each one teaching a certain thing, I decided to put together all separated knowledge in this project.
 This way students can finish the course and start coding projects, not only repeat the lessons.
 The course does not provide a complete ecommerce system but every time I got a free time I try to make it better.
+Different ways of coding are done on purpose due to the teaching purpose.
 
 More detailed documentation can be found directly on the code.
 
