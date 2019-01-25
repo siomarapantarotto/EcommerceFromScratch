@@ -11,17 +11,17 @@ import java.sql.SQLException;
  * @author siomara.com.br
  * @version 20160917
  */
-public class Connector {
+public class DBConnector {
 
     // Database parameters
     private static final String DB_DRIVER = "org.postgresql.Driver";
-    private static final String DB_CONNECTION = "jdbc:postgresql://127.0.0.1:5432/ecommerce";
-    private static final String DB_USER = "postgres";
-    private static final String DB_PASSWORD = "postgres";
+    private static final String DB_CONNECTION = "jdbc:postgresql://127.0.0.1:5432/ecommerce_db";
+    private static final String DB_USER = "ecommerce_dba";
+    private static final String DB_PASSWORD = "ecommercedbapwd";
 
     
     // NO ARGUMENT constructor
-    public Connector() {
+    public DBConnector() {
     }
 
     

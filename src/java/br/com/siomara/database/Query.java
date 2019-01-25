@@ -20,8 +20,9 @@ public class Query {
 
     // NO ARGUMENT constructor
     public Query() {
-        Connector connector = new Connector();
+        DBConnector connector = new DBConnector();
         this.connection = connector.getConnection();
+        System.out.println("Query received connection from Connector");
     }
 
     /**
