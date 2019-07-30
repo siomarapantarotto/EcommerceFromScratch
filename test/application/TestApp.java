@@ -50,10 +50,11 @@ public class TestApp {
         // Display elements using FOR loop
         System.out.println("\n---------- THIRD SYNTAX to display elements using specified format ----------");
         for (Product p : products) {
-            System.out.println("\nName:"+ p.getName()
-                    + ", \nPrice: "     + p.getPrice()
-                    + ", \nWeight: "    + p.getWeight()
-                    + ", \nDetails: "    + p.getDetail());
+            System.out.println("\nTipo:"+ p.getProductType().getDescription()
+                    + "\nName:"+ p.getName()
+                    + "\nPrice: "     + p.getPrice()
+                    + "\nWeight: "    + p.getWeight()
+                    + "\nDetails: "    + p.getDetail());
         }
 
         //CustomerManager customerManager = new CustomerManager();        
