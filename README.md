@@ -10,7 +10,7 @@
 
 ## General info
 "EcommerceFromScratch" is a basic JAVA PROJECT COURSE that runs on console and provides students orientations on how to structure a project within an IDE.
-This ecommerce project course was created in 2016 to teach basic JAVA with no framework usage.
+This ecommerce project course was created in 2016 to teach basic JAVA with no framework usage for developers of Brazil Post.
 The main purpose is to give students an idea on how to create an ecommerce project from scratch.
 Instead of a course with different lessons (1, 2, 3 etc), each one teaching a certain thing, I decided to put together all separated knowledges inside of an ecommerce project that deals with different data types (String, Integer, Float, Double, Date, Timestamp etc) and many others aspects.
 This way students can finish the course and start coding real projects.
