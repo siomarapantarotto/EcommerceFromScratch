@@ -1,5 +1,6 @@
 # eCommerce from Scratch
 
+![ecommerce_01](https://user-images.githubusercontent.com/5893219/135018196-f651a944-1678-4682-948d-9594f81366cd.gif)
 
 ## Table of contents
 * [General info](#general-info)
