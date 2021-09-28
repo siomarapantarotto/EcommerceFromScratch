@@ -1,8 +1,8 @@
 # eCommerce from Scratch
 
 <p align='center'>
-  ![ecommerce_01](https://user-images.githubusercontent.com/5893219/135018196-f651a944-1678-4682-948d-9594f81366cd.gif)
-  ![ecommerce_02](https://user-images.githubusercontent.com/5893219/135018949-c2339ad4-a21c-47fc-82c3-2d7336e546c6.gif)
+![ecommerce_01](https://user-images.githubusercontent.com/5893219/135018196-f651a944-1678-4682-948d-9594f81366cd.gif)
+![ecommerce_02](https://user-images.githubusercontent.com/5893219/135018949-c2339ad4-a21c-47fc-82c3-2d7336e546c6.gif)
 </p>
 
 ## Table of contents
@@ -25,8 +25,8 @@ More detailed documentation can be found directly on the code.
 
 <!-- IMAGES... -->
 <p align='center'>
-  ![ecommerce_03](https://user-images.githubusercontent.com/5893219/135018802-e0d6f531-6e0d-4488-a1c8-6f127e997b42.gif)
-  ![ecommerce_04](https://user-images.githubusercontent.com/5893219/135018869-1e3aa576-e4fe-4c2c-9d55-697446feddd4.gif)
+![ecommerce_03](https://user-images.githubusercontent.com/5893219/135018802-e0d6f531-6e0d-4488-a1c8-6f127e997b42.gif)
+![ecommerce_04](https://user-images.githubusercontent.com/5893219/135018869-1e3aa576-e4fe-4c2c-9d55-697446feddd4.gif)
 </p>
 
 ## Technologies
